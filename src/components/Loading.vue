@@ -50,8 +50,10 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
   }
   .loading-text{
+  	padding-top: 10px;	
     color: #fff;
   }
 </style>

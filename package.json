@@ -1,7 +1,7 @@
 {
   "name": "vue-nice-loading",
   "description": "A vue loading tool",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "1042625709@qq.com",
   "license": "MIT",
   "private": false,
@@ -32,5 +32,9 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitliyu/vue-nice-loading.git"
   }
 }

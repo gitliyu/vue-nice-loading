@@ -6,7 +6,7 @@ const LoadingConstructor = Vue.extend(LoadingWidget);
 
 const defaults = {
   text: null,
-  type: 'three-dots',
+  type: 'ball-triangle',
   background: null,
   visible: false,
   delay: 0
@@ -17,6 +17,12 @@ LoadingConstructor.prototype.showLoading = true;
 LoadingConstructor.prototype.close = function () {
   this.showLoading = false;
   this.visible = false;
+  setTimeout(() => {
+    if (this.$el && this.$el.parentNode) {
+      this.$el.parentNode.removeChild(this.$el);
+    }
+    this.$destroy();
+  });
 };
 
 const show = (options = {}) => {

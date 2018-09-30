@@ -1,6 +1,8 @@
 # vue-nice-loading
 
-一个大概会好用的`loading`
+Demo: ['https://www.liyu.fun/vue-nice-loading'](https://www.liyu.fun/vue-nice-loading)
+
+Demo源码示例： ['demo.vue'](https://github.com/gitliyu/vue-nice-loading/blob/master/example/demo.vue)
 
 安装
 ```javascript
@@ -27,7 +29,7 @@ setTimeout(() => {
 
 **type**
 
-`loading`显示的种类，这里使用的所有`svg`图片取自['SVG-Loaders'](https://github.com/SamHerbert/SVG-Loaders), 接受值与图片名相同，默认值为`three-dots`，共有以下12种
+`loading`显示的种类，这里使用的所有`svg`图片取自['SVG-Loaders'](https://github.com/SamHerbert/SVG-Loaders), 接受值与图片名相同，默认值为`ball-triangle`，共有以下12种
 - audio
 - ball-triangle
 - bars
