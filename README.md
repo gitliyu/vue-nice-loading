@@ -43,6 +43,12 @@ setTimeout(() => {
 - tail-spin
 - three-dots
 
+```javascript
+this.$loading({
+  type: 'bars'
+})
+```
+
 **target** 
 
 `loading`需要覆盖的`dom`节点, 可传入一个`dom`对象或选择器的字符串，默认为`body`，显示全屏`loading`
@@ -57,9 +63,21 @@ this.$loading({
 
 显示文本，默认为空
 
+```javascript
+this.$loading({
+  text: 'Loading...'
+})
+```
+
 **background**
 
 遮罩层背景色
+
+```javascript
+this.$loading({
+  background: '#333'
+})
+```
 
 **delay**
 
