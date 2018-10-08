@@ -15,7 +15,7 @@
     <div class="loading-wrap">
       <div class="login-item"></div>
       <div :class="['loading-item', item.type]" v-for="(item, index) in types" :key="index">
-        <button @click="showLoading(item)">显示type{{ item.type }}</button>
+        <button @click="showLoading(item)">显示type: {{ item.type }}</button>
       </div>
     </div>
   </div>

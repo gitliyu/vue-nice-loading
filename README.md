@@ -25,6 +25,8 @@ setTimeout(() => {
   loading.close();
 }, 3000)
 ```
+> 支持直接引入js文件的使用方式
+
 `$loading`方法接受以下参数
 
 **type**
@@ -69,3 +71,7 @@ this.$loading({
   delay: 1000
 })
 ```
+
+### 技术支持
+['SVG-Loaders'](https://github.com/SamHerbert/SVG-Loaders)
+['ElementUI'](https://github.com/ElemeFE/element)

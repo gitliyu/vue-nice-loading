@@ -1,6 +1,5 @@
 .DS_Store
 node_modules/
-dist/
 npm-debug.log
 yarn-error.log
 
@@ -11,3 +10,4 @@ yarn-error.log
 *.njsproj
 *.sln
 /package-lock.json
+/dist/*.map

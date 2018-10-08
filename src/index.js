@@ -22,7 +22,7 @@ LoadingConstructor.prototype.close = function () {
       this.$el.parentNode.removeChild(this.$el);
     }
     this.$destroy();
-  });
+  }, 1);
 };
 
 const show = (options = {}) => {
@@ -59,3 +59,7 @@ export default {
     Vue.prototype.$loading = show;
   }
 };
+
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.prototype.$loading = show;
+}
